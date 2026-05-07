@@ -1,0 +1,31 @@
+{
+    "java.autobuild.enabled": false,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.project.sourcePaths": [
+        "."
+    ],
+    "java.project.excludedPaths": [
+        "bin/**",
+        "bin-test/**",
+        "lib/**",
+        "target/**",
+        ".maven-temp/**"
+    ],
+    "java.project.resourceFilters": [
+        ".classpath",
+        ".project",
+        ".git",
+        ".vscode",
+        "bin",
+        "bin-test",
+        "lib",
+        "target",
+        ".maven-temp",
+        "*.md",
+        "pom.xml",
+        "EjecutarTests.ps1"
+    ],
+    "java.project.outputPath": "bin"
+}
